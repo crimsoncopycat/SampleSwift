@@ -9,13 +9,14 @@
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Request Module View Controller-->
+        <!--Most Popular Artists View Controller-->
         <scene sceneID="bAq-J1-epz">
             <objects>
-                <viewController storyboardIdentifier="RequestModuleViewController" id="SAa-7e-Ztg" customClass="RequestModuleViewController" customModule="viperWorkspace" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MostPopularArtistsViewController" id="SAa-7e-Ztg" customClass="MostPopularArtistsViewController" customModule="viperWorkspace" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MNK-du-bff">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="artistTableViewCell" rowHeight="100" id="GhU-6a-RzD" customClass="ArtistTableViewCell" customModule="viperWorkspace" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ArtistTableViewCell" rowHeight="100" id="GhU-6a-RzD" customClass="ArtistTableViewCell" customModule="viperWorkspace" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GhU-6a-RzD" id="cyp-sG-2jg">
@@ -38,17 +39,17 @@
                                                         <constraint firstAttribute="width" constant="70" id="hHA-rx-zkt"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIR-49-Pym">
-                                                    <rect key="frame" x="90" y="16" width="260" height="67.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PnM-d7-rsu">
-                                                    <rect key="frame" x="90" y="63" width="260" height="20.5"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="PnM-d7-rsu">
+                                                    <rect key="frame" x="90" y="25.5" width="260" height="49"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXV-Jb-oXe">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIR-49-Pym">
                                                             <rect key="frame" x="0.0" y="0.0" width="260" height="20.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXV-Jb-oXe">
+                                                            <rect key="frame" x="0.0" y="28.5" width="260" height="20.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -57,14 +58,11 @@
                                                 </stackView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="PnM-d7-rsu" firstAttribute="centerY" secondItem="QZb-JO-HpT" secondAttribute="centerY" id="HDl-Nj-AMi"/>
                                                 <constraint firstItem="QZb-JO-HpT" firstAttribute="centerY" secondItem="cyp-sG-2jg" secondAttribute="centerY" id="NL4-gC-DhS"/>
                                                 <constraint firstItem="PnM-d7-rsu" firstAttribute="leading" secondItem="QZb-JO-HpT" secondAttribute="trailing" constant="10" id="OUl-ar-ccs"/>
-                                                <constraint firstItem="NIR-49-Pym" firstAttribute="centerY" secondItem="cyp-sG-2jg" secondAttribute="centerY" id="RsX-ZY-g9j"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="NIR-49-Pym" secondAttribute="trailing" constant="10" id="ain-BY-PRd"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="PnM-d7-rsu" secondAttribute="trailing" constant="10" id="fHU-sG-T3A"/>
-                                                <constraint firstItem="NIR-49-Pym" firstAttribute="leading" secondItem="QZb-JO-HpT" secondAttribute="trailing" constant="10" id="gWg-yP-J6x"/>
                                                 <constraint firstItem="QZb-JO-HpT" firstAttribute="leading" secondItem="cyp-sG-2jg" secondAttribute="leading" constant="10" id="vBQ-TT-aEn"/>
-                                                <constraint firstItem="NIR-49-Pym" firstAttribute="top" secondItem="cyp-sG-2jg" secondAttribute="topMargin" constant="5" id="yza-vN-JXu"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -75,17 +73,28 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="OQj-3e-nBy">
+                                <rect key="frame" x="167" y="313" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OQj-3e-nBy" secondAttribute="height" multiplier="1:1" id="6j5-51-7UP"/>
+                                    <constraint firstAttribute="width" constant="40" id="D1G-ba-kir"/>
+                                </constraints>
+                                <color key="color" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="OQj-3e-nBy" firstAttribute="centerY" secondItem="MNK-du-bff" secondAttribute="centerY" id="BF3-GY-izk"/>
                             <constraint firstItem="Msm-6n-XYz" firstAttribute="leading" secondItem="voc-lm-PLu" secondAttribute="leading" id="Dg1-aq-DeB"/>
                             <constraint firstItem="voc-lm-PLu" firstAttribute="bottom" secondItem="Msm-6n-XYz" secondAttribute="bottom" id="QvQ-vG-K2r"/>
+                            <constraint firstItem="OQj-3e-nBy" firstAttribute="centerX" secondItem="MNK-du-bff" secondAttribute="centerX" id="YPT-8r-Oe1"/>
                             <constraint firstItem="voc-lm-PLu" firstAttribute="trailing" secondItem="Msm-6n-XYz" secondAttribute="trailing" id="wya-15-cbF"/>
                             <constraint firstItem="Msm-6n-XYz" firstAttribute="top" secondItem="voc-lm-PLu" secondAttribute="top" id="xMH-Om-sHM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="voc-lm-PLu"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicator" destination="OQj-3e-nBy" id="tOp-ns-F1C"/>
                         <outlet property="tableView" destination="Msm-6n-XYz" id="zRU-QL-YUo"/>
                     </connections>
                 </viewController>

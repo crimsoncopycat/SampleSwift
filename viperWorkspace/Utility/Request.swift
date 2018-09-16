@@ -29,7 +29,7 @@ struct RequestInputs {
     let path: String
     let method: Alamofire.HTTPMethod
     let encoding: ParameterEncoding
-    let onSuccess: (Any?) -> Void
+    let onSuccess: (Any?) throws -> Void
     let onFailure: (ErrorType) -> Void
     
     init(params: [String: Any]? = nil,
@@ -37,7 +37,7 @@ struct RequestInputs {
          path: String = "",
          method: Alamofire.HTTPMethod = .get,
          encoding: ParameterEncoding = JSONEncoding.default,
-         onSuccess: @escaping (Any?) -> Void,
+         onSuccess: @escaping (Any?) throws -> Void,
          onFailure: @escaping (ErrorType) -> Void) {
         self.params = params
         self.path = path
@@ -78,7 +78,7 @@ struct Request {
                           encoding: inputs.encoding).responseString(encoding: .utf8, completionHandler: { (response) in
                             switch response.result {
                                 
-                            case .success: inputs.onSuccess(response.value)
+                            case .success: try? inputs.onSuccess(response.value)
                             case .failure: inputs.onFailure(.request(response.error))
                             }
                           })
@@ -93,7 +93,7 @@ struct Request {
                           parameters: inputs.params,
                           encoding: inputs.encoding).responseJSON(completionHandler: { response in
                             switch response.result {
-                            case .success: inputs.onSuccess(response.value)
+                            case .success: try? inputs.onSuccess(response.value)
                             case .failure: inputs.onFailure(.request(response.error))
                             }
                           })

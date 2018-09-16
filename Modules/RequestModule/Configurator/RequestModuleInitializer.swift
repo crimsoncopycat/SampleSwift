@@ -9,10 +9,17 @@
 import UIKit
 
 class RequestModuleModuleInitializer {
-    static func setup() -> RequestModuleViewController {
-        let requestmoduleViewController = RequestModuleViewController.instantiate()
+    static func setup() -> UINavigationController {
+        let requestmoduleViewController = MostPopularArtistsViewController.instantiate()
         let configurator = RequestModuleModuleConfigurator()
         configurator.configureModuleForViewInput(viewInput: requestmoduleViewController)
-        return requestmoduleViewController
+        return requestmoduleViewController.wrapWithNavigationController()
+    }
+}
+
+extension UIViewController {
+    public func wrapWithNavigationController()-> UINavigationController{
+        let navigationController = UINavigationController(rootViewController: self)
+        return navigationController
     }
 }

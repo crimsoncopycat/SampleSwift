@@ -9,22 +9,22 @@
 import UIKit
 
 protocol IBViperConfigurator {
-    func configure(viewController: RequestModuleViewController)
+    func configure(viewController: MostPopularArtistsViewController)
 }
 
 class RequestModuleModuleConfigurator: IBViperConfigurator {
 
     func configureModuleForViewInput<UIViewController>(viewInput: UIViewController) {
 
-        if let viewController = viewInput as? RequestModuleViewController {
+        if let viewController = viewInput as? MostPopularArtistsViewController {
             configure(viewController: viewController)
         }
     }
 
-    func configure(viewController: RequestModuleViewController) {
-        let router = RequestModuleRouter()
-        let presenter = RequestModulePresenter()
-        let interactor = RequestModuleInteractor()
+    func configure(viewController: MostPopularArtistsViewController) {
+        let router = MostPopularArtistsRouter()
+        let presenter = MostPopularArtistsPresenter()
+        let interactor = MostPopularArtistsInteractor()
         presenter.view = viewController
         presenter.router = router
         interactor.output = presenter

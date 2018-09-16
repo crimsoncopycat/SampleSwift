@@ -9,7 +9,18 @@
 import Foundation
 
 struct Artists : Codable {
-    var artists: [Artist]
+    var artists: ArtistKey
+}
+
+struct ArtistKey: Codable {
+    var artist: [Artist]
+}
+
+struct Attributes: Codable {
+    var page: String
+    var perPage: String
+    var totalPages: String
+    var total: String
 }
 
 struct Artist: Codable {
