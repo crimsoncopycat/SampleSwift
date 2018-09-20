@@ -19,8 +19,6 @@
 		02B4F2CD21419DE500F24D7A /* viperWorkspace.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2CB21419DE500F24D7A /* viperWorkspace.xcdatamodeld */; };
 		02B4F2CF21419DEC00F24D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B4F2CE21419DEC00F24D7A /* Assets.xcassets */; };
 		02B4F2D221419DEC00F24D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B4F2D021419DEC00F24D7A /* LaunchScreen.storyboard */; };
-		02B4F2DD21419DEC00F24D7A /* viperWorkspaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2DC21419DEC00F24D7A /* viperWorkspaceTests.swift */; };
-		02B4F2E821419DEC00F24D7A /* viperWorkspaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2E721419DEC00F24D7A /* viperWorkspaceUITests.swift */; };
 		02B4F3032141B1EA00F24D7A /* Data+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2F62141B1EA00F24D7A /* Data+Decode.swift */; };
 		02B4F3052141B1EA00F24D7A /* UIImageView+AlamofireImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2F82141B1EA00F24D7A /* UIImageView+AlamofireImageCache.swift */; };
 		02B4F3062141B1EA00F24D7A /* UIColor+CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2F92141B1EA00F24D7A /* UIColor+CAGradientLayer.swift */; };
@@ -49,23 +47,6 @@
 		C8AFBC919DBA6727E9641ACB /* ArtistInfoInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F37CF60FD5B99410224E96 /* ArtistInfoInitializer.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		02B4F2D921419DEC00F24D7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 02B4F2B921419DE500F24D7A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02B4F2C021419DE500F24D7A;
-			remoteInfo = viperWorkspace;
-		};
-		02B4F2E421419DEC00F24D7A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 02B4F2B921419DE500F24D7A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 02B4F2C021419DE500F24D7A;
-			remoteInfo = viperWorkspace;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		02205FB621423F45001CEB9F /* LastFMNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFMNetworkService.swift; sourceTree = "<group>"; };
 		02205FB921423FB3001CEB9F /* RequestModuleFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModuleFacade.swift; sourceTree = "<group>"; };
@@ -81,12 +62,6 @@
 		02B4F2CE21419DEC00F24D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B4F2D121419DEC00F24D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02B4F2D321419DEC00F24D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02B4F2D821419DEC00F24D7A /* viperWorkspaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperWorkspaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02B4F2DC21419DEC00F24D7A /* viperWorkspaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperWorkspaceTests.swift; sourceTree = "<group>"; };
-		02B4F2DE21419DEC00F24D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02B4F2E321419DEC00F24D7A /* viperWorkspaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperWorkspaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		02B4F2E721419DEC00F24D7A /* viperWorkspaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperWorkspaceUITests.swift; sourceTree = "<group>"; };
-		02B4F2E921419DEC00F24D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B4F2F62141B1EA00F24D7A /* Data+Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Data+Decode.swift"; path = "viperWorkspace/UtilityFiles/Data+Decode.swift"; sourceTree = SOURCE_ROOT; };
 		02B4F2F82141B1EA00F24D7A /* UIImageView+AlamofireImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImageCache.swift"; path = "viperWorkspace/UtilityFiles/UIImageView+AlamofireImageCache.swift"; sourceTree = SOURCE_ROOT; };
 		02B4F2F92141B1EA00F24D7A /* UIColor+CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+CAGradientLayer.swift"; path = "viperWorkspace/UtilityFiles/UIColor+CAGradientLayer.swift"; sourceTree = SOURCE_ROOT; };
@@ -123,20 +98,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				10E36858A6CA392212747B52 /* Pods_viperWorkspace.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02B4F2D521419DEC00F24D7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02B4F2E021419DEC00F24D7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,13 +149,10 @@
 			isa = PBXGroup;
 			children = (
 				02B4F2C321419DE500F24D7A /* viperWorkspace */,
-				02B4F2DB21419DEC00F24D7A /* viperWorkspaceTests */,
-				02B4F2E621419DEC00F24D7A /* viperWorkspaceUITests */,
 				02B4F2C221419DE500F24D7A /* Products */,
 				99D9D04F21BC0C6AA31BCA7F /* Pods */,
 				2A9E36E442E7A90B796F9DD7 /* Frameworks */,
 				D45DC864543E32D90463C4DC /* Modules */,
-				8400AAD68D4F7095CBF801D5 /* UnitTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,8 +160,6 @@
 			isa = PBXGroup;
 			children = (
 				02B4F2C121419DE500F24D7A /* viperWorkspace.app */,
-				02B4F2D821419DEC00F24D7A /* viperWorkspaceTests.xctest */,
-				02B4F2E321419DEC00F24D7A /* viperWorkspaceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,24 +179,6 @@
 				02B4F2CB21419DE500F24D7A /* viperWorkspace.xcdatamodeld */,
 			);
 			path = viperWorkspace;
-			sourceTree = "<group>";
-		};
-		02B4F2DB21419DEC00F24D7A /* viperWorkspaceTests */ = {
-			isa = PBXGroup;
-			children = (
-				02B4F2DC21419DEC00F24D7A /* viperWorkspaceTests.swift */,
-				02B4F2DE21419DEC00F24D7A /* Info.plist */,
-			);
-			path = viperWorkspaceTests;
-			sourceTree = "<group>";
-		};
-		02B4F2E621419DEC00F24D7A /* viperWorkspaceUITests */ = {
-			isa = PBXGroup;
-			children = (
-				02B4F2E721419DEC00F24D7A /* viperWorkspaceUITests.swift */,
-				02B4F2E921419DEC00F24D7A /* Info.plist */,
-			);
-			path = viperWorkspaceUITests;
 			sourceTree = "<group>";
 		};
 		02B4F2F52141A69B00F24D7A /* Utility */ = {
@@ -345,13 +283,6 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		8400AAD68D4F7095CBF801D5 /* UnitTests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UnitTests;
-			sourceTree = "<group>";
-		};
 		840EE75A12BFCE3D2710190C /* Configurator */ = {
 			isa = PBXGroup;
 			children = (
@@ -419,42 +350,6 @@
 			productReference = 02B4F2C121419DE500F24D7A /* viperWorkspace.app */;
 			productType = "com.apple.product-type.application";
 		};
-		02B4F2D721419DEC00F24D7A /* viperWorkspaceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02B4F2EF21419DEC00F24D7A /* Build configuration list for PBXNativeTarget "viperWorkspaceTests" */;
-			buildPhases = (
-				02B4F2D421419DEC00F24D7A /* Sources */,
-				02B4F2D521419DEC00F24D7A /* Frameworks */,
-				02B4F2D621419DEC00F24D7A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02B4F2DA21419DEC00F24D7A /* PBXTargetDependency */,
-			);
-			name = viperWorkspaceTests;
-			productName = viperWorkspaceTests;
-			productReference = 02B4F2D821419DEC00F24D7A /* viperWorkspaceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		02B4F2E221419DEC00F24D7A /* viperWorkspaceUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 02B4F2F221419DEC00F24D7A /* Build configuration list for PBXNativeTarget "viperWorkspaceUITests" */;
-			buildPhases = (
-				02B4F2DF21419DEC00F24D7A /* Sources */,
-				02B4F2E021419DEC00F24D7A /* Frameworks */,
-				02B4F2E121419DEC00F24D7A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				02B4F2E521419DEC00F24D7A /* PBXTargetDependency */,
-			);
-			name = viperWorkspaceUITests;
-			productName = viperWorkspaceUITests;
-			productReference = 02B4F2E321419DEC00F24D7A /* viperWorkspaceUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -468,16 +363,6 @@
 					02B4F2C021419DE500F24D7A = {
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
-					};
-					02B4F2D721419DEC00F24D7A = {
-						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 02B4F2C021419DE500F24D7A;
-					};
-					02B4F2E221419DEC00F24D7A = {
-						CreatedOnToolsVersion = 9.4.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 02B4F2C021419DE500F24D7A;
 					};
 				};
 			};
@@ -495,8 +380,6 @@
 			projectRoot = "";
 			targets = (
 				02B4F2C021419DE500F24D7A /* viperWorkspace */,
-				02B4F2D721419DEC00F24D7A /* viperWorkspaceTests */,
-				02B4F2E221419DEC00F24D7A /* viperWorkspaceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -510,20 +393,6 @@
 				02B4F2CF21419DEC00F24D7A /* Assets.xcassets in Resources */,
 				1E1B5AC64076159B0D20E0EE /* MostPopularArtistsViewController.storyboard in Resources */,
 				79992119BBDA61A441F8CDF0 /* ArtistInfoViewController.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02B4F2D621419DEC00F24D7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02B4F2E121419DEC00F24D7A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,36 +482,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		02B4F2D421419DEC00F24D7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02B4F2DD21419DEC00F24D7A /* viperWorkspaceTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		02B4F2DF21419DEC00F24D7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				02B4F2E821419DEC00F24D7A /* viperWorkspaceUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		02B4F2DA21419DEC00F24D7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 02B4F2C021419DE500F24D7A /* viperWorkspace */;
-			targetProxy = 02B4F2D921419DEC00F24D7A /* PBXContainerItemProxy */;
-		};
-		02B4F2E521419DEC00F24D7A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 02B4F2C021419DE500F24D7A /* viperWorkspace */;
-			targetProxy = 02B4F2E421419DEC00F24D7A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		02B4F2D021419DEC00F24D7A /* LaunchScreen.storyboard */ = {
@@ -801,68 +641,6 @@
 			};
 			name = Release;
 		};
-		02B4F2F021419DEC00F24D7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = viperWorkspaceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iulik.viperWorkspaceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viperWorkspace.app/viperWorkspace";
-			};
-			name = Debug;
-		};
-		02B4F2F121419DEC00F24D7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = viperWorkspaceTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iulik.viperWorkspaceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/viperWorkspace.app/viperWorkspace";
-			};
-			name = Release;
-		};
-		02B4F2F321419DEC00F24D7A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = viperWorkspaceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iulik.viperWorkspaceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = viperWorkspace;
-			};
-			name = Debug;
-		};
-		02B4F2F421419DEC00F24D7A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = viperWorkspaceUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iulik.viperWorkspaceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = viperWorkspace;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -880,24 +658,6 @@
 			buildConfigurations = (
 				02B4F2ED21419DEC00F24D7A /* Debug */,
 				02B4F2EE21419DEC00F24D7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02B4F2EF21419DEC00F24D7A /* Build configuration list for PBXNativeTarget "viperWorkspaceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02B4F2F021419DEC00F24D7A /* Debug */,
-				02B4F2F121419DEC00F24D7A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		02B4F2F221419DEC00F24D7A /* Build configuration list for PBXNativeTarget "viperWorkspaceUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02B4F2F321419DEC00F24D7A /* Debug */,
-				02B4F2F421419DEC00F24D7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
