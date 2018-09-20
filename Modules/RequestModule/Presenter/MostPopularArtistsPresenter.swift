@@ -11,9 +11,6 @@ protocol MostPopularArtistsModuleInput: class {
 }
 
 final class MostPopularArtistsPresenter: MostPopularArtistsModuleInput, MostPopularArtistsViewOutput, MostPopularArtistsInteractorOutput {
-
-    
-    
     weak var view: MostPopularArtistsViewInput!
     var interactor: RequestModuleInteractorInput!
     var router: RequestModuleRouterInput!
@@ -34,7 +31,7 @@ final class MostPopularArtistsPresenter: MostPopularArtistsModuleInput, MostPopu
         router.openArtistInfoModule(artistName)
     }
     
-    func didObtainDataWithError(error: ErrorType) {
+    func fetchError(error: ErrorType) {
         view.showError(error)
     }
 }

@@ -73,7 +73,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="OQj-3e-nBy">
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="OQj-3e-nBy">
                                 <rect key="frame" x="167" y="313" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="OQj-3e-nBy" secondAttribute="height" multiplier="1:1" id="6j5-51-7UP"/>

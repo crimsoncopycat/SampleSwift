@@ -7,7 +7,7 @@
 //
 protocol MostPopularArtistsInteractorOutput: class {
     func didObtainMostListenArtists(_ artists: Artists)
-    func didObtainDataWithError(error: ErrorType)
+    func fetchError(error: ErrorType)
 }
 
 protocol RequestModuleInteractorInput {
@@ -26,7 +26,7 @@ class MostPopularArtistsInteractor: RequestModuleInteractorInput {
         }, onError: {
             [weak self] error in
             
-            self?.output.didObtainDataWithError(error: error)
+            self?.output.fetchError(error: error)
         })
     }
 }

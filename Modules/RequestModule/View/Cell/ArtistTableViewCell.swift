@@ -14,6 +14,17 @@ final class ArtistTableViewCell: UITableViewCell {
     @IBOutlet weak var artistImage: UIImageView!
     @IBOutlet weak var artistName: UILabel!
     
+    var mostListenViewModel: MostListenArtistViewModel! {
+        didSet {
+            self.artistName.text = mostListenViewModel.artistName
+            self.listeners.text = mostListenViewModel.listeners
+            guard let imageURL = URL(string: mostListenViewModel.artistImageURL) else {
+                return
+            }
+            self.artistImage.af_setImage(withURL: imageURL)
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

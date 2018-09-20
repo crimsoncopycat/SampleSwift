@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "viperWorkspace/Services/LastFMNetworkService.swift"
-            timestampString = "558130328.036571"
+            timestampString = "559143533.378758"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "viperWorkspace/Services/LastFMNetworkService.swift"
-            timestampString = "558130328.036633"
+            timestampString = "559143533.3790621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "viperWorkspace/Services/LastFMNetworkService.swift"
-            timestampString = "558130328.036687"
+            timestampString = "559143533.379241"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "viperWorkspace/Services/LastFMNetworkService.swift"
-            timestampString = "558130328.036738"
+            timestampString = "559143533.379416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "48"
@@ -127,8 +127,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "25"
             endingLineNumber = "25"
-            landmarkName = "ArtistInfoInteractorOutput"
-            landmarkType = "5">
+            landmarkName = "getArtistInfo(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -143,8 +143,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
             endingLineNumber = "29"
-            landmarkName = "ArtistInfoInteractor"
-            landmarkType = "3">
+            landmarkName = "getArtistInfo(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Modules/ArtistInfo/Presenter/ArtistInfoPresenter.swift"
-            timestampString = "558781512.886288"
+            timestampString = "558871017.666585"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "28"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "viperWorkspace/Services/LastFMNetworkService.swift"
-            timestampString = "558130328.036909"
+            timestampString = "559143533.379741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "53"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "viperWorkspace/Services/LastFMNetworkService.swift"
-            timestampString = "558130328.036952"
+            timestampString = "559143533.379945"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -202,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "viperWorkspace/Services/LastFMNetworkService.swift"
-            timestampString = "558130328.036991"
+            timestampString = "559143533.3801481"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -218,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Modules/ArtistInfo/View/ArtistInfoViewController.swift"
-            timestampString = "558781512.886416"
+            timestampString = "558871017.666822"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
@@ -234,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Modules/ArtistInfo/Configurator/ArtistInfoInitializer.swift"
-            timestampString = "558781512.886485"
+            timestampString = "559164486.492911"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -273,38 +273,6 @@
             endingLineNumber = "23"
             landmarkName = "getMostListenArtists()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "viperWorkspace.RequestModuleInteractor.getMostListenArtists() -&gt; ()"
-                  moduleName = "viperWorkspace"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iulik/testProjects/viperWorkspace/Modules/RequestModule/Interactor/RequestModuleInteractor.swift"
-                  timestampString = "558779697.025642"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "22">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (viperWorkspace.Artists) -&gt; () in viperWorkspace.RequestModuleInteractor.getMostListenArtists() -&gt; ()"
-                  moduleName = "viperWorkspace"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iulik/testProjects/viperWorkspace/Modules/RequestModule/Interactor/RequestModuleInteractor.swift"
-                  timestampString = "558779697.027634"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -321,38 +289,6 @@
             endingLineNumber = "24"
             landmarkName = "getMostListenArtists()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "viperWorkspace.RequestModuleInteractor.getMostListenArtists() -&gt; ()"
-                  moduleName = "viperWorkspace"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iulik/testProjects/viperWorkspace/Modules/RequestModule/Interactor/RequestModuleInteractor.swift"
-                  timestampString = "558779697.031732"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "336">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (viperWorkspace.Artists) -&gt; () in viperWorkspace.RequestModuleInteractor.getMostListenArtists() -&gt; ()"
-                  moduleName = "viperWorkspace"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iulik/testProjects/viperWorkspace/Modules/RequestModule/Interactor/RequestModuleInteractor.swift"
-                  timestampString = "558779697.033331"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -369,38 +305,6 @@
             endingLineNumber = "26"
             landmarkName = "getMostListenArtists()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (viperWorkspace.Artists) -&gt; () in viperWorkspace.RequestModuleInteractor.getMostListenArtists() -&gt; ()"
-                  moduleName = "viperWorkspace"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iulik/testProjects/viperWorkspace/Modules/RequestModule/Interactor/RequestModuleInteractor.swift"
-                  timestampString = "558779697.038438"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "514">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (viperWorkspace.ErrorType) -&gt; () in viperWorkspace.RequestModuleInteractor.getMostListenArtists() -&gt; ()"
-                  moduleName = "viperWorkspace"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iulik/testProjects/viperWorkspace/Modules/RequestModule/Interactor/RequestModuleInteractor.swift"
-                  timestampString = "558779697.040255"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -417,38 +321,6 @@
             endingLineNumber = "27"
             landmarkName = "getMostListenArtists()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "viperWorkspace.RequestModuleInteractor.getMostListenArtists() -&gt; ()"
-                  moduleName = "viperWorkspace"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iulik/testProjects/viperWorkspace/Modules/RequestModule/Interactor/RequestModuleInteractor.swift"
-                  timestampString = "558779697.044655"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "450">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (viperWorkspace.ErrorType) -&gt; () in viperWorkspace.RequestModuleInteractor.getMostListenArtists() -&gt; ()"
-                  moduleName = "viperWorkspace"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/iulik/testProjects/viperWorkspace/Modules/RequestModule/Interactor/RequestModuleInteractor.swift"
-                  timestampString = "558779697.046178"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "27"
-                  endingLineNumber = "27"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -506,13 +378,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Modules/RequestModule/View/MostPopularArtistsViewController.swift"
-            timestampString = "558781512.8869359"
+            timestampString = "559164486.493389"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
             landmarkName = "MostPopularArtistsViewOutput"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/RequestModule/View/MostPopularArtistsViewController.swift"
+            timestampString = "559164486.493703"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "MostPopularArtistsViewInput"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viperWorkspace/Services/LastFMNetworkService.swift"
+            timestampString = "559143533.380772"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getMostListenArtists(onSuccess:onError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Modules/RequestModule/View/MostPopularArtistsViewController.swift"
+            timestampString = "559164486.494006"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
