@@ -12,6 +12,7 @@
 		02205FBD21431573001CEB9F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02205FBC21431573001CEB9F /* Artist.swift */; };
 		02205FBF214389D2001CEB9F /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02205FBE214389D2001CEB9F /* ArtistTableViewCell.swift */; };
 		022C80F421541E370094C98B /* MostListenArtistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C80F321541E370094C98B /* MostListenArtistViewModel.swift */; };
+		026DA64B21556C990090F055 /* viperWorkspaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026DA64A21556C990090F055 /* viperWorkspaceUITests.swift */; };
 		02B34EB22143C67200910C9C /* ArtistInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B34EB12143C67200910C9C /* ArtistInfo.swift */; };
 		02B34EB4214425BB00910C9C /* ArtistInfoFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B34EB3214425BB00910C9C /* ArtistInfoFacade.swift */; };
 		02B34EB62144585100910C9C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B34EB52144585100910C9C /* Constants.swift */; };
@@ -47,12 +48,25 @@
 		C8AFBC919DBA6727E9641ACB /* ArtistInfoInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F37CF60FD5B99410224E96 /* ArtistInfoInitializer.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		026DA64D21556C990090F055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02B4F2B921419DE500F24D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02B4F2C021419DE500F24D7A;
+			remoteInfo = viperWorkspace;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		02205FB621423F45001CEB9F /* LastFMNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFMNetworkService.swift; sourceTree = "<group>"; };
 		02205FB921423FB3001CEB9F /* RequestModuleFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModuleFacade.swift; sourceTree = "<group>"; };
 		02205FBC21431573001CEB9F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		02205FBE214389D2001CEB9F /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
 		022C80F321541E370094C98B /* MostListenArtistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostListenArtistViewModel.swift; sourceTree = "<group>"; };
+		026DA64821556C990090F055 /* viperWorkspaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viperWorkspaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		026DA64A21556C990090F055 /* viperWorkspaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viperWorkspaceUITests.swift; sourceTree = "<group>"; };
+		026DA64C21556C990090F055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B34EB12143C67200910C9C /* ArtistInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfo.swift; sourceTree = "<group>"; };
 		02B34EB3214425BB00910C9C /* ArtistInfoFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistInfoFacade.swift; sourceTree = "<group>"; };
 		02B34EB52144585100910C9C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -93,6 +107,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		026DA64521556C990090F055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02B4F2BE21419DE500F24D7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +158,15 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		026DA64921556C990090F055 /* viperWorkspaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				026DA64A21556C990090F055 /* viperWorkspaceUITests.swift */,
+				026DA64C21556C990090F055 /* Info.plist */,
+			);
+			path = viperWorkspaceUITests;
+			sourceTree = "<group>";
+		};
 		02B34EB02143BF7C00910C9C /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				02B4F2C321419DE500F24D7A /* viperWorkspace */,
+				026DA64921556C990090F055 /* viperWorkspaceUITests */,
 				02B4F2C221419DE500F24D7A /* Products */,
 				99D9D04F21BC0C6AA31BCA7F /* Pods */,
 				2A9E36E442E7A90B796F9DD7 /* Frameworks */,
@@ -160,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				02B4F2C121419DE500F24D7A /* viperWorkspace.app */,
+				026DA64821556C990090F055 /* viperWorkspaceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -331,6 +363,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		026DA64721556C990090F055 /* viperWorkspaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 026DA65121556C990090F055 /* Build configuration list for PBXNativeTarget "viperWorkspaceUITests" */;
+			buildPhases = (
+				026DA64421556C990090F055 /* Sources */,
+				026DA64521556C990090F055 /* Frameworks */,
+				026DA64621556C990090F055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026DA64E21556C990090F055 /* PBXTargetDependency */,
+			);
+			name = viperWorkspaceUITests;
+			productName = viperWorkspaceUITests;
+			productReference = 026DA64821556C990090F055 /* viperWorkspaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		02B4F2C021419DE500F24D7A /* viperWorkspace */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02B4F2EC21419DEC00F24D7A /* Build configuration list for PBXNativeTarget "viperWorkspace" */;
@@ -360,6 +410,11 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = iulik;
 				TargetAttributes = {
+					026DA64721556C990090F055 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02B4F2C021419DE500F24D7A;
+					};
 					02B4F2C021419DE500F24D7A = {
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
@@ -380,11 +435,19 @@
 			projectRoot = "";
 			targets = (
 				02B4F2C021419DE500F24D7A /* viperWorkspace */,
+				026DA64721556C990090F055 /* viperWorkspaceUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		026DA64621556C990090F055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02B4F2BF21419DE500F24D7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,6 +505,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		026DA64421556C990090F055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026DA64B21556C990090F055 /* viperWorkspaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		02B4F2BD21419DE500F24D7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,6 +555,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		026DA64E21556C990090F055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02B4F2C021419DE500F24D7A /* viperWorkspace */;
+			targetProxy = 026DA64D21556C990090F055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		02B4F2D021419DEC00F24D7A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -496,6 +575,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		026DA64F21556C990090F055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viperWorkspaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iulik.viperWorkspaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viperWorkspace;
+			};
+			name = Debug;
+		};
+		026DA65021556C990090F055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = viperWorkspaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iulik.viperWorkspaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = viperWorkspace;
+			};
+			name = Release;
+		};
 		02B4F2EA21419DEC00F24D7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -644,6 +751,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		026DA65121556C990090F055 /* Build configuration list for PBXNativeTarget "viperWorkspaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				026DA64F21556C990090F055 /* Debug */,
+				026DA65021556C990090F055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		02B4F2BC21419DE500F24D7A /* Build configuration list for PBXProject "viperWorkspace" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
