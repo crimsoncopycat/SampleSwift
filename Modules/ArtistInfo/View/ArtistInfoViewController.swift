@@ -37,6 +37,7 @@ final class ArtistInfoViewController: UIViewController, ArtistInfoViewInput, Sto
             activityIndicator.isHidden = !activityIndicator.isHidden
         }
     }
+    
     var artistNameString: String!
     // MARK: Life cycle
     override func viewDidLoad() {

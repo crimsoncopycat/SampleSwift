@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AlamofireImage
 
 final class ArtistTableViewCell: UITableViewCell {
 
@@ -18,6 +19,7 @@ final class ArtistTableViewCell: UITableViewCell {
         didSet {
             self.artistName.text = mostListenViewModel.artistName
             self.listeners.text = mostListenViewModel.listeners
+            
             guard let imageURL = URL(string: mostListenViewModel.artistImageURL) else {
                 return
             }

@@ -21,18 +21,15 @@
 		02B4F2CF21419DEC00F24D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B4F2CE21419DEC00F24D7A /* Assets.xcassets */; };
 		02B4F2D221419DEC00F24D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B4F2D021419DEC00F24D7A /* LaunchScreen.storyboard */; };
 		02B4F3032141B1EA00F24D7A /* Data+Decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2F62141B1EA00F24D7A /* Data+Decode.swift */; };
-		02B4F3052141B1EA00F24D7A /* UIImageView+AlamofireImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2F82141B1EA00F24D7A /* UIImageView+AlamofireImageCache.swift */; };
-		02B4F3062141B1EA00F24D7A /* UIColor+CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2F92141B1EA00F24D7A /* UIColor+CAGradientLayer.swift */; };
 		02B4F3072141B1EA00F24D7A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2FA2141B1EA00F24D7A /* Reachability.swift */; };
 		02B4F3092141B1EA00F24D7A /* MutableCollection+Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2FC2141B1EA00F24D7A /* MutableCollection+Sequence.swift */; };
-		02B4F30A2141B1EA00F24D7A /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2FD2141B1EA00F24D7A /* UIStackView+.swift */; };
 		02B4F30B2141B1EA00F24D7A /* DefaultSwiftServicesExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2FE2141B1EA00F24D7A /* DefaultSwiftServicesExtensions.swift */; };
-		02B4F30C2141B1EA00F24D7A /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F2FF2141B1EA00F24D7A /* UIViewController+.swift */; };
 		02B4F30D2141B1EA00F24D7A /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F3002141B1EA00F24D7A /* StoryboardInstantiable.swift */; };
 		02B4F30E2141B1EA00F24D7A /* UIAlertController+UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F3012141B1EA00F24D7A /* UIAlertController+UIApplication.swift */; };
 		02B4F30F2141B1EA00F24D7A /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F3022141B1EA00F24D7A /* String+.swift */; };
 		02B4F3112141C3CE00F24D7A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4F3102141C3CE00F24D7A /* Request.swift */; };
 		02BFA009214E4C9600DF83E4 /* MostPopularArtistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BFA008214E4C9500DF83E4 /* MostPopularArtistsViewController.swift */; };
+		02DFF727218125A30070D7C0 /* GenericTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02DFF726218125A30070D7C0 /* GenericTableView.swift */; };
 		10E36858A6CA392212747B52 /* Pods_viperWorkspace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E67134F5354B6D0C622E207B /* Pods_viperWorkspace.framework */; };
 		15FFF6EB8C07F350FC2DAC92 /* ArtistInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0AA14C5C1AB063FA15BDFC /* ArtistInfoViewController.swift */; };
 		1E1B5AC64076159B0D20E0EE /* MostPopularArtistsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C89D3FF12F9E0721C6E59C /* MostPopularArtistsViewController.storyboard */; };
@@ -77,18 +74,15 @@
 		02B4F2D121419DEC00F24D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02B4F2D321419DEC00F24D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B4F2F62141B1EA00F24D7A /* Data+Decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Data+Decode.swift"; path = "viperWorkspace/UtilityFiles/Data+Decode.swift"; sourceTree = SOURCE_ROOT; };
-		02B4F2F82141B1EA00F24D7A /* UIImageView+AlamofireImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImageCache.swift"; path = "viperWorkspace/UtilityFiles/UIImageView+AlamofireImageCache.swift"; sourceTree = SOURCE_ROOT; };
-		02B4F2F92141B1EA00F24D7A /* UIColor+CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+CAGradientLayer.swift"; path = "viperWorkspace/UtilityFiles/UIColor+CAGradientLayer.swift"; sourceTree = SOURCE_ROOT; };
 		02B4F2FA2141B1EA00F24D7A /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = viperWorkspace/UtilityFiles/Reachability.swift; sourceTree = SOURCE_ROOT; };
 		02B4F2FC2141B1EA00F24D7A /* MutableCollection+Sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "MutableCollection+Sequence.swift"; path = "viperWorkspace/UtilityFiles/MutableCollection+Sequence.swift"; sourceTree = SOURCE_ROOT; };
-		02B4F2FD2141B1EA00F24D7A /* UIStackView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIStackView+.swift"; path = "viperWorkspace/UtilityFiles/UIStackView+.swift"; sourceTree = SOURCE_ROOT; };
 		02B4F2FE2141B1EA00F24D7A /* DefaultSwiftServicesExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefaultSwiftServicesExtensions.swift; path = viperWorkspace/UtilityFiles/DefaultSwiftServicesExtensions.swift; sourceTree = SOURCE_ROOT; };
-		02B4F2FF2141B1EA00F24D7A /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIViewController+.swift"; path = "viperWorkspace/UtilityFiles/UIViewController+.swift"; sourceTree = SOURCE_ROOT; };
 		02B4F3002141B1EA00F24D7A /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoryboardInstantiable.swift; path = viperWorkspace/UtilityFiles/StoryboardInstantiable.swift; sourceTree = SOURCE_ROOT; };
 		02B4F3012141B1EA00F24D7A /* UIAlertController+UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIAlertController+UIApplication.swift"; path = "viperWorkspace/UtilityFiles/UIAlertController+UIApplication.swift"; sourceTree = SOURCE_ROOT; };
 		02B4F3022141B1EA00F24D7A /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "viperWorkspace/UtilityFiles/String+.swift"; sourceTree = SOURCE_ROOT; };
 		02B4F3102141C3CE00F24D7A /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		02BFA008214E4C9500DF83E4 /* MostPopularArtistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MostPopularArtistsViewController.swift; sourceTree = "<group>"; };
+		02DFF726218125A30070D7C0 /* GenericTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericTableView.swift; sourceTree = "<group>"; };
 		0626CEB1F8BC3602C80A348A /* ArtistInfoInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArtistInfoInteractor.swift; sourceTree = "<group>"; };
 		091646FBD734D7329D2D6F23 /* Pods-viperWorkspace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viperWorkspace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viperWorkspace/Pods-viperWorkspace.debug.xcconfig"; sourceTree = "<group>"; };
 		1391F89A143FDE91083FF30B /* MostPopularArtistsInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MostPopularArtistsInteractor.swift; sourceTree = "<group>"; };
@@ -221,13 +215,10 @@
 				02B4F2FE2141B1EA00F24D7A /* DefaultSwiftServicesExtensions.swift */,
 				02B4F2FC2141B1EA00F24D7A /* MutableCollection+Sequence.swift */,
 				02B4F2FA2141B1EA00F24D7A /* Reachability.swift */,
+				02DFF726218125A30070D7C0 /* GenericTableView.swift */,
 				02B4F3002141B1EA00F24D7A /* StoryboardInstantiable.swift */,
 				02B4F3022141B1EA00F24D7A /* String+.swift */,
 				02B4F3012141B1EA00F24D7A /* UIAlertController+UIApplication.swift */,
-				02B4F2F92141B1EA00F24D7A /* UIColor+CAGradientLayer.swift */,
-				02B4F2F82141B1EA00F24D7A /* UIImageView+AlamofireImageCache.swift */,
-				02B4F2FD2141B1EA00F24D7A /* UIStackView+.swift */,
-				02B4F2FF2141B1EA00F24D7A /* UIViewController+.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -524,7 +515,6 @@
 				02205FB721423F45001CEB9F /* LastFMNetworkService.swift in Sources */,
 				02B34EB22143C67200910C9C /* ArtistInfo.swift in Sources */,
 				02B4F3032141B1EA00F24D7A /* Data+Decode.swift in Sources */,
-				02B4F3052141B1EA00F24D7A /* UIImageView+AlamofireImageCache.swift in Sources */,
 				022C80F421541E370094C98B /* MostListenArtistViewModel.swift in Sources */,
 				02B4F3092141B1EA00F24D7A /* MutableCollection+Sequence.swift in Sources */,
 				02BFA009214E4C9600DF83E4 /* MostPopularArtistsViewController.swift in Sources */,
@@ -533,10 +523,8 @@
 				02B4F30D2141B1EA00F24D7A /* StoryboardInstantiable.swift in Sources */,
 				02B4F30B2141B1EA00F24D7A /* DefaultSwiftServicesExtensions.swift in Sources */,
 				AB1A0D993CEDDEC9BABB0266 /* MostPopularArtistsInteractor.swift in Sources */,
-				02B4F30C2141B1EA00F24D7A /* UIViewController+.swift in Sources */,
 				02B34EB62144585100910C9C /* Constants.swift in Sources */,
 				605A8E8532174A4B2201920B /* MostPopularArtistsRouter.swift in Sources */,
-				02B4F3062141B1EA00F24D7A /* UIColor+CAGradientLayer.swift in Sources */,
 				9A3CE5D4E5909BC042C54493 /* RequestModuleConfigurator.swift in Sources */,
 				02205FBA21423FB3001CEB9F /* RequestModuleFacade.swift in Sources */,
 				02B4F3072141B1EA00F24D7A /* Reachability.swift in Sources */,
@@ -544,8 +532,8 @@
 				BEAD2B463D5ECB608A7C8690 /* RequestModuleInitializer.swift in Sources */,
 				02B4F30F2141B1EA00F24D7A /* String+.swift in Sources */,
 				02205FBD21431573001CEB9F /* Artist.swift in Sources */,
-				02B4F30A2141B1EA00F24D7A /* UIStackView+.swift in Sources */,
 				15FFF6EB8C07F350FC2DAC92 /* ArtistInfoViewController.swift in Sources */,
+				02DFF727218125A30070D7C0 /* GenericTableView.swift in Sources */,
 				94B569EE94D463E43C071126 /* ArtistInfoPresenter.swift in Sources */,
 				988D8E880338D01C78108985 /* ArtistInfoInteractor.swift in Sources */,
 				90DB50FE19B005E003CE121D /* ArtistInfoConfigurator.swift in Sources */,

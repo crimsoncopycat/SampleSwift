@@ -30,12 +30,14 @@ final class MostPopularArtistsViewController: UIViewController, MostPopularArtis
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var tableView: UITableView! {
         didSet {
-            tableView.dataSource = self
             tableView.delegate = self
             tableView.rowHeight = 100
             tableView.separatorStyle = .none
         }
     }
+    
+    var tableDataSource : GenericTableViewDataSource<MostListenArtistViewModel>!
+    
     var artistViewModels: [MostListenArtistViewModel]! {
         didSet {
             self.activityIndicator.isHidden = !self.activityIndicator.isHidden
@@ -58,6 +60,8 @@ final class MostPopularArtistsViewController: UIViewController, MostPopularArtis
     func configureTableViewWithData(_ artists: Artists) {
         DispatchQueue.main.async {
             self.artistViewModels = artists.artists.artist.map{ MostListenArtistViewModel(artist: $0)}
+            self.tableDataSource = .make(for: self.artistViewModels)
+            self.tableView.dataSource = self.tableDataSource
             self.tableView.reloadData()
         }
     }
@@ -73,28 +77,27 @@ final class MostPopularArtistsViewController: UIViewController, MostPopularArtis
     }
 }
 
-extension MostPopularArtistsViewController: UITableViewDataSource {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard let _ = artistViewModels else {
-            return 0
-        }
-        return artistViewModels.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: ArtistTableViewCell.identifier) as? ArtistTableViewCell else {
-            return UITableViewCell()
-        }
-        cell.mostListenViewModel = artistViewModels[indexPath.item]
-        return cell
-    }
-}
-
 extension MostPopularArtistsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let _ = artistViewModels else {
             return
         }
         output.didTapArtistCell(indexPath, artistName: artistViewModels[indexPath.row].artistName)
+    }
+}
+
+extension GenericTableViewDataSource where Model == MostListenArtistViewModel {
+    static func make(for artists: [MostListenArtistViewModel],
+                     reuseIdentifier: String = ArtistTableViewCell.identifier) -> GenericTableViewDataSource {
+        return GenericTableViewDataSource(
+            models: artists,
+            reuseIdentifier: reuseIdentifier
+        ) { (artist, cell) in
+            guard let cell = cell as? ArtistTableViewCell else {
+                return
+            }
+            
+            cell.mostListenViewModel = artist
+        }
     }
 }

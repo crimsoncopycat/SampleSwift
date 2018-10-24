@@ -9,14 +9,7 @@
 import UIKit
 
 class ArtistInfoModuleConfigurator {
-
-    func configureModuleForViewInput<UIViewController>(viewInput: UIViewController) {
-        if let viewController = viewInput as? ArtistInfoViewController {
-            configure(viewController: viewController)
-        }
-    }
-
-    private func configure(viewController: ArtistInfoViewController) {
+    static func configure(with viewController: ArtistInfoViewController) {
         let presenter = ArtistInfoPresenter()
         presenter.view = viewController
         let interactor = ArtistInfoInteractor()
@@ -25,5 +18,4 @@ class ArtistInfoModuleConfigurator {
         presenter.interactor = interactor
         viewController.output = presenter
     }
-
 }

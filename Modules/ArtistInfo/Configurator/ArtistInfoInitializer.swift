@@ -11,8 +11,7 @@ import UIKit
 class ArtistInfoModuleInitializer {
     static func setup(with artistName: String) -> ArtistInfoViewController {
         let artistinfoViewController = ArtistInfoViewController.instantiate()
-        let configurator = ArtistInfoModuleConfigurator()
-        configurator.configureModuleForViewInput(viewInput: artistinfoViewController)
+        ArtistInfoModuleConfigurator.configure(with: artistinfoViewController)
         artistinfoViewController.artistNameString = artistName
         return artistinfoViewController
     }

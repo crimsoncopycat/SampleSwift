@@ -25,7 +25,6 @@ class MostPopularArtistsInteractor: RequestModuleInteractorInput {
             self?.output.didObtainMostListenArtists(artists)
         }, onError: {
             [weak self] error in
-            
             self?.output.fetchError(error: error)
         })
     }

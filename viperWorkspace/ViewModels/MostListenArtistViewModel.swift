@@ -12,6 +12,7 @@ struct MostListenArtistViewModel {
     let artistName: String
     let listeners: String
     let artistImageURL: String
+    
     init(artist: Artist) {
         self.artistName = artist.name
         self.listeners = artist.listeners + " listeners"

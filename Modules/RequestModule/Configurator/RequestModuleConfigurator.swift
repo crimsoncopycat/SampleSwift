@@ -8,14 +8,8 @@
 
 import UIKit
 
-protocol IBViperConfigurator {
-    func configure(viewController: MostPopularArtistsViewController)
-}
-
-class RequestModuleModuleConfigurator: IBViperConfigurator {
-
+class RequestModuleModuleConfigurator {
     func configureModuleForViewInput<UIViewController>(viewInput: UIViewController) {
-
         if let viewController = viewInput as? MostPopularArtistsViewController {
             configure(viewController: viewController)
         }
